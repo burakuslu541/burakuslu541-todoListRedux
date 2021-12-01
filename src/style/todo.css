@@ -1,0 +1,152 @@
+
+.newTaskCard{
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-bottom: 3%;
+
+  }
+  .modalInput{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+
+  }
+.form-card{
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.new-todo{
+    width: 100%;
+    margin-bottom: 2%;
+
+
+}
+.save-icon{
+    color: white;
+    background-color: #20A4B7;
+    padding: 6px;
+    width: 7%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+
+}
+.save-text{
+    width: 93%;
+    border: 1px solid gainsboro;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.save-button{
+    background-color: #20A4B7;
+    color: white;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    width: 100%;
+    padding: 6px;
+}
+.save-button:hover{
+    background-color: #19d5f1;
+}
+.header-todo{
+    margin: 3%;
+}
+.select-all{
+    background-color: #20A4B7;
+    color: white;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    width: 96%;
+    padding: 6px;
+    margin-bottom: 4%;
+}
+.select-all:hover{
+    background-color: #19d5f1;
+}
+.todo-item{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin: 15px;
+}
+.todo-p{
+    width: 70%;
+    text-align: start;
+    padding-left: 20px;
+
+}
+.todo-text-p{
+    margin-top: 13px;
+
+}
+.todo-text-done{
+    margin-top: 13px;
+    color:red;
+    text-decoration:line-through;
+
+}
+.todo-icon{
+    width: 30%;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.tik-todo{
+    color: #8DAE95;
+    font-size: 23px;
+
+}
+.tik-todo-done{
+    color: #8DAE95;
+    font-size: 22px;
+    text-align: center;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+.edit-todo{
+    font-size: 23px;
+    color: #E8C33C;
+
+}
+.delete-todo{
+    font-size: 23px;
+color: #DC3249;
+}
+.delete-task{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.delete-done{
+    width: 43%;
+    margin-right: 30px;
+    background-color: #DC3249;
+    color: white;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 6px;
+    margin-bottom: 4%;
+}
+.delete-done:hover{
+    background-color: #eb344d;
+}
+.delete-all{
+    width: 46%;
+    background-color: #DC3249;
+    color: white;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 6px;
+    margin-bottom: 4%;
+}
+.delete-all:hover{
+    background-color: #eb344d;
+}
